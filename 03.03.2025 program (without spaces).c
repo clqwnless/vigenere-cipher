@@ -239,6 +239,7 @@ int main(void)
             printf("%s\n", start_result);
             
             free(ptr);
+            free(result);
             
             return 0;
         } else {
